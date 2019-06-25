@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+  background-size: cover;
+}
+
+h3{
+  text-decoration-color: white;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  text-align: center;
+  margin: auto;
+  padding: 0;
+ 
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+  text-align: center;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+header{
+  background: red;
+  width: 100%;
+}
+
+header{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.menu{
+  width: 900px;
+margin: 0 auto;
+}
+
+
+}
+nav ul{
+  padding: 0;
+margin: 0;
+text-align: center;
+}
+nav ul li{
+  list-style: none;
+  float: left;
+  margin-left: 75px;
+  padding: 10px 0;
+  position: relative;
+}
+nav ul li a{
+  text-decoration: none;
+color: white;
+font-weight: bold;
+}
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: black;
+  top: 0;
+  position: absolute;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+  width: 100%;
+}
+
+.box2{
+  width: 75%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box2 img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.box3{
+  width: 75%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box3 img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.box4{
+  width: 75%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box4 img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.button{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+  text-align: center;
+}
+.button{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.button:hover{
+  color: #b9b9b9;
+}
